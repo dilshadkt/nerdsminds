@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/src/assets/fonts/metropolis.bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/src/assets/fonts/metropolis.medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/src/assets/fonts/metropolis.light.otf") format("truetype");
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("/src/assets/fonts/metropolis.regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
